@@ -1,4 +1,4 @@
-# Python-for-Data-Visualization-Matplotlib-Seaborn
+# Python-for-Data-Visualization-Matplotlib-Seaborn - Netflix, Twitter and Facebook Stocks
 This project is part of the Coursera Project Network and focuses on mastering data visualization using Python libraries Matplotlib and Seaborn.
 This project explores seven years of daily stock data from three major tech companies. It leverages data science and visualization to uncover movement patterns, calculate returns, and evaluate investment performance. This analysis helps in understanding correlations between tech stocks and market sentiment.
 
@@ -7,9 +7,6 @@ This project explores seven years of daily stock data from three major tech comp
 ### In this hands-on project, I learned to:
 -	Generate various types of plots: line plots, scatterplots, histograms, pie charts, 3D plots, pair plots, count plots, and heatmaps.
 - Analyze historical stock performance of Facebook (FB), Netflix (NFLX), and Twitter (TWTR) to identify trends, compare volatility, and explore stock behavior from 2013 to 2020 using Python and financial analysis techniques.
-
-### Separately I learned to:
--	Utilize Seaborn and sklearn datasets to analyze breast cancer data, exploring feature correlations and target variables.
 
 ## Installation
 The required python libraries can be installed using:
@@ -27,6 +24,8 @@ pip install matplotlib seaborn pandas sklearn yfinance plotly
 - Volume  
 
 ## Methodology
+- Retrieved stock data using `yfinance`  
+- Plotted daily closing prices for each company 
 
 ## Results
 
